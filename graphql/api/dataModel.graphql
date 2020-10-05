@@ -1,0 +1,10 @@
+type Board {
+  _id: String!
+  test: String!
+  comments: [Comments!]!
+}
+
+type Comments {
+  _id: String!
+  desc: String!
+}
